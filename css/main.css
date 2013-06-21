@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 12px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
@@ -61,11 +61,15 @@ ul.posts span {
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
+  font-size: 12px;
+  text-align: left;
+  width: 600px;
+  margin: 40px auto;
   line-height: 1.5em;
+}
+
+.site .header {
+  font-size: 16px;
 }
 
 .site .header a {
@@ -99,8 +103,11 @@ ul.posts span {
   color: #aaa;
 }
 
+.site h2 {
+  font-size: 18px;
+}
+
 .site .footer {
-  font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
@@ -135,8 +142,8 @@ ul.posts span {
 /* standard */
 .post pre {
   border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+  background-color: #eee;
+  padding: 10px;   
 }
 
 .post ul, .post ol {
@@ -145,8 +152,8 @@ ul.posts span {
 
 .post code {
   border: 1px solid #ddd;
-  background-color: #eef;
   padding: 0 .2em;
+  font-family: "Bitstream Vera Sans Mono",monospace
 }
 
 .post pre code {
