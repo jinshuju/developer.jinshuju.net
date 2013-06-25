@@ -180,6 +180,10 @@ ul.posts span {
   padding: 10px;   
 }
 
+.post h3 {
+  margin: 10px 0px;
+}
+
 .post ul, .post ol {
   margin-left: 1.35em;
 }
@@ -216,12 +220,20 @@ hr {
   margin-top: 20px;
 }
 
+.caution {
+  background-color: #f2e894;
+  margin: 10px 0px;
+  padding: 6px;
+}
 
+table {
+  border-collapse: collapse;
+}
 
-
-
-
-
+td,th {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
 
 
 
