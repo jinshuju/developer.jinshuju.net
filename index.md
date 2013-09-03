@@ -24,14 +24,12 @@ API访问规则：
 
 开启这个API之后，金数据会在收到对应表单数据的时候，将数据通过HTTP POST推送到指定的URL。[查看详情](/http-push.html)
 
-<div class="waiting-api">即将开放的API:</div>
-
 ### 表单
 
 通过这个API获取表单定义。然后你可以在任意你熟知的平台上重绘这个表单。通过组合[数据API](/entry-api.html)，你能够脱离金数据界面绘制和添加数据。[查看详情](/form-api.html)
 
 ### 数据
 
-通过这个API添加数据。通过表单API获得的表单定义，你能够将所有的数据通过JSON格式以HTTP POST的方式发送到金数据。
+通过这个API添加数据。通过表单API获得的表单定义，你能够将所有的数据通过JSON格式以HTTP POST的方式发送到金数据。[查看详情](/entry-api.html)
 
 
